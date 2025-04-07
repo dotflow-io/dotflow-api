@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dotflow-api"
+version = "0.1.0"
+description = "Dotflow API"
+authors = ["FernandoCelmer <email@fernandocelmer.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+pydantic = "^2.11.2"
+pyjwt = "^2.10.1"
+six = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,11 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from src import __version__
-from src.api.v1.routers import v1
+from app import __version__
+from app.api.v1.routers import v1
 
 
-app = FastAPI(title="Dotflow", description="Dotflow API", version=__version__)
+app = FastAPI(
+    title="Dotflow",
+    description="Dotflow API",
+    version=__version__
+)
 
 origins = ["*"]
 

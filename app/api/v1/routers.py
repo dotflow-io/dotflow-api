@@ -1,8 +1,8 @@
 """Routers"""
 
 from fastapi import APIRouter
-from src.api.v1.endpoints import workflow
-from src.api.v1.endpoints import task
+from app.api.v1.endpoints import workflow
+from app.api.v1.endpoints import task
 
 
 v1 = APIRouter()

@@ -2,6 +2,7 @@
 name = "dotflow-api"
 version = "0.1.0"
 description = "Dotflow API"
+package-mode = false
 authors = ["FernandoCelmer <email@fernandocelmer.com>"]
 license = "MIT"
 readme = "README.md"

@@ -16,7 +16,11 @@ pyjwt = "^2.10.1"
 six = "^1.17.0"
 opentelemetry-instrumentation-fastapi = "^0.57b0"
 sqlalchemy = "^2.0.42"
+httpx = "^0.28.1"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
 
 [build-system]
 requires = ["poetry-core"]
